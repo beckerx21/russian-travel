@@ -4,4 +4,29 @@
     padding: 0 48px 24px 48px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 186px;
+        padding-left: 16px;
+    }
 }

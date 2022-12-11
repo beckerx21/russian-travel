@@ -3,6 +3,15 @@
     max-width: 360px;
     font-weight: 400;
     text-align: center;
+    font-size: 18px;
     line-height: 22px;
     z-index: 2;
+}
+
+@media screen and (max-width: 700px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+    }
 }

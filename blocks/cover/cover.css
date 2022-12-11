@@ -3,3 +3,25 @@
     padding: 0 48px 92px 48px;
     max-width: 1184px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        padding-bottom: 64px;
+    }
+}
